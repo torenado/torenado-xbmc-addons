@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.torenado" name="Torenado's XBMC Addons" version="1.0.0" provider-name="Torenado">
+	<extension point="xbmc.addon.repository" name="Torenado's XBMC Addon Repository">
+		<info compressed="false">https://github.com/Torenado/torenado-xbmc-addons/master/addons.xml</info>
+		<checksum>https://github.com/Torenado/torenado-xbmc-addons/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Torenado/torenado-xbmc-addons/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Torenado's Addons</summary>
+		<description>Download and install addons by Torenado</description>
+		<platform>all</platform>
+	</extension>
+</addon>
